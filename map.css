@@ -38,7 +38,7 @@ header {
     margin-left: auto;
 }
 
-#anyTime {
+#any-time {
     color: gray;
 }
 
@@ -60,12 +60,11 @@ circle {
 
 
 
-
 .legend {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 10px;
+    gap: 40px;
+    padding: 30px;
 }
 
 .legend-item {
@@ -105,4 +104,23 @@ circle {
     height: 20px;
     border-radius: 50%;
     background-color: darkorange;
+}
+
+
+
+#header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#any-time,
+#selected-time {
+    display: block;
+    text-align: right;
+}
+
+#time-slider {
+    width: 400px;
 }
